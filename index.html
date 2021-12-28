@@ -1,35 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c4c3871909.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
     <title>PlayNinja</title>
-</head>
-<body>
-    <header id="header">
-           <div  id="left-section-header">  //Left-section-header
-              <div id="logo"> //BrandLogo
-                  
-              </div>  
-              <div id="favourites"> //Favourites
-
-              </div> 
-
-           </div>
-           <div id="right-section-header"> //Right-section-header
-              <div id="searchBar"> //SearchBar
-
-              </div> 
-              <div id="notification"> //Notification
-
-              </div> 
-              <div id="profile"> //Profile Logo
-
-              </div> 
-               
-           </div>
+  </head>
+  <body>
+    <header id="header" class="flex">
+      <!--Left-section-header -->
+      <div id="left-section-header" class="flex">
+        <!-- BrandLogo -->
+        <div id="logo">
+          <i class="fab fa-spotify"></i>
+          <span>Play Ninjas</span>
+        </div>
+        <!-- Favourites -->
+        <div id="favourites">
+          <p>Favourites</p>
+        </div>
+      </div>
+      <!-- Right-section-header -->
+      <div id="right-section-header" class="flex">
+        <!-- SearchBar -->
+        <div id="searchBar" class="flex">
+          <i class="fas fa-search"></i>
+          <input type="text" class="search" placeholder="Search" />
+          <i class="fas fa-microphone"></i>
+        </div>
+        <!-- Notification -->
+        <div id="notification">
+          <i class="fas fa-bell" style="font-size: 1.5rem"></i>
+        </div>
+        <!-- Profile Logo -->
+        <div id="profile">
+          <i class="fas fa-user" style="font-size: 1.5rem"></i>
+        </div>
+      </div>
     </header>
-</body>
+    <main id="main" class="flex">
+      <div id="main-left" class="flex">
+        <div id="main-img" class="flex">
+          <img
+            src="ian-curtis-joy-division-music-microphone-wallpaper-preview (1).jpg"
+          />
+          <img
+            src="ian-curtis-joy-division-music-microphone-wallpaper-preview.jpg"
+          />
+          <img src="Singers-Wallpaper-9-1920-X-1080-stmed.net.jpg" />
+        </div>
+        <div id="latestRelease" class="flex">
+          <h3 class="LRH3" style="color: white">Latest Release</h3>
+          <div id="container" class="flex">
+            <div class="container_child flex"></div>
+          </div>
+        </div>
+        <div id="popularArtist" class="flex">
+          <h3 class="LRH3">Popular Artists</h3>
+          <div id="PA-img" class="flex">
+            <div class="caption flex">
+              <img
+                src="263443-eminem-wallpaper-top-free-eminem-background.png"
+              />
+              <figcaption>Eminem</figcaption>
+            </div>
+            <div class="caption flex">
+              <img src="1563174.jpg" />
+              <figcaption>Zayn</figcaption>
+            </div>
+            <div class="caption flex">
+              <img
+                src="alternative-britpop-coldplay-rock-wallpaper-preview.jpg"
+              />
+              <figcaption>ColdPlay</figcaption>
+            </div>
+            <div class="caption flex">
+              <img src="maxresdefault.jpg" />
+              <figcaption>Imagine Dragons</figcaption>
+            </div>
+            <div class="caption flex">
+              <img src="54146.jpg" />
+              <figcaption>Bruno Mars</figcaption>
+            </div>
+            <div class="caption flex">
+              <img src="90294da3e806e4259a05f7f47bd5c635.jpg" />
+              <figcaption>Charlie Puth</figcaption>
+            </div>
+          </div>
+        </div>
+        <div id="musicType" class="flex">
+          <div id="MT" class="flex">
+            <div class="wrapper">
+              <img src="Screenshot 2021-12-27 080637.png" />
+            </div>
+            <div class="wrapper">
+              <img src="photo-1498038432885-c6f3f1b912ee.png" />
+              <div class="text">Love</div>
+            </div>
+            <div class="wrapper">
+              <img src="photo-1498038432885-c6f3f1b912ee.png" />
+              <div class="text">Retro</div>
+            </div>
+            <div class="wrapper">
+              <img src="photo-1498038432885-c6f3f1b912ee.png" />
+              <div class="text">Chill</div>
+            </div>
+            <div class="wrapper">
+              <img src="photo-1498038432885-c6f3f1b912ee.png" />
+              <div class="text">Workout</div>
+            </div>
+            <div class="wrapper">
+              <img src="photo-1498038432885-c6f3f1b912ee.png" />
+              <div class="text">Rock</div>
+            </div>
+            <div class="wrapper">
+              <img src="photo-1498038432885-c6f3f1b912ee.png" />
+              <div class="text">pop</div>
+            </div>
+          </div>
+        </div>
+        <div id="musicTheme" class="flex">
+          <div id="musictheme" class="flex">
+            <div class="wrapper">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <div class="text">Party</div>
+            </div>
+            <div class="wrapper">
+              <img
+                src="technology-electronic-engineering-electronics-green-wallpaper-preview.jpg"
+              />
+              <div class="text">Electronic</div>
+            </div>
+            <div class="wrapper">
+              <img src="download.png" />
+              <div class="text">Road Trip</div>
+            </div>
+          </div>
+        </div>
+        <div id="latestEnglish" class="flex">
+          <h3 class="LRH3">Latest English</h3>
+          <div id="latestEnglish-container" class="flex">
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+          </div>
+        </div>
+        <div id="latestHindi">
+          <h3 class="LRH3">Latest Hindi</h3>
+          <div id="latestEnglish-container" class="flex">
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+            <div class="latestEnglish-container-wrapper flex">
+              <img src="concert_crowd_people_134866_1920x1080.jpg" />
+              <p>Onism</p>
+              <p>AUG 11,2017</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main-right" class="flex">
+        <div id="MR-text" class="flex">
+          <h2 style="color: white">Queue</h2>
+          <div class="flex">
+            <h3 style="color: #4fe1c0">Queue</h3>
+
+            <i class="fas fa-caret-down" style="color: #4fe1c0"></i>
+          </div>
+        </div>
+        <div class="queue flex">
+          <ol class="flex list">
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="ol_image">
+                <img
+                  src="263443-eminem-wallpaper-top-free-eminem-background.png"
+                />
+              </div>
+              <div class="ol_text">
+                <p>Onism</p>
+                <p style="color: rgb(145, 137, 137)">Emiway</p>
+              </div>
+              <div class="font_image">
+                <i class="fas fa-heart"></i>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
