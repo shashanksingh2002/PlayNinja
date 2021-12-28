@@ -54,7 +54,7 @@ p {
 }
 
 #main-left {
-  width: 60%;
+  width: 70%;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
@@ -67,7 +67,7 @@ p {
 /*  scrollbar-width: none; /* Firefox */
 /*  }  */
 #main-right {
-  width: 38%;
+  width: 30%;
   /* border: 2px solid cyan; */
 }
 #main-img {
@@ -241,7 +241,7 @@ p {
 }
 #MR-text {
   /* outline:2px solid white; */
-  width: 80%;
+  width: 70%;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -252,7 +252,7 @@ p {
   justify-content: space-around;
 }
 .list {
-  width: 80%;
+  width: 100%;
   flex-direction: column;
   /* outline:2px solid white; */
 }
@@ -276,7 +276,7 @@ p {
   color: white;
 }
 .font_image {
-  margin-left: 6rem;
+  margin-left: 7.5rem;
   /* outline:2px solid white; */
   color: white;
   font-size: 1.5rem;
