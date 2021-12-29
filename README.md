@@ -11,3 +11,6 @@ Day3
   
 Day4
   *Implemented the main-right of the layout
+  
+Day5
+  *Implemented Footer (Song-Controls)
