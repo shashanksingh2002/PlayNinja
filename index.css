@@ -105,7 +105,7 @@ p {
   /* outline:2px solid white; */
 }
 #popularArtist {
-  margin-top: 2rem;
+  
   color: white;
   width: 90%;
   /* outline:2px solid white; */
@@ -139,6 +139,44 @@ p {
 }
 .caption figcaption {
   margin-top: 1rem;
+}
+#latestRelease{
+  /* outline:2px solid white; */
+ margin-top:1rem;
+  width:90%;
+}
+#container{
+  margin-left: 2rem;
+  width:100%;
+  flex-wrap: wrap;
+  flex-direction:row ;
+  justify-content: flex-end;
+  color:lightgray;
+}
+.container_child{
+  /* outline:2px solid cyan; */
+  width:48%;
+  margin-bottom: 1rem;
+}
+#LRphoto{
+  transition: all 1s ease-in-out;
+}
+#LRphoto img{
+  width:4rem;
+  height:4rem;
+  
+}
+#LRphoto:hover{
+  transform:scale(0.8);
+}
+#photoname{
+  margin-left:1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+#LRdrop{
+  flex-direction: column;
+  margin-left: 3.5rem;
 }
 #musicType {
   margin-top: 2rem;
@@ -239,6 +277,7 @@ p {
   justify-content: center;
   align-items: center;
   color: white;
+  margin-bottom: 1rem;
 }
 #main-right {
   flex-direction: column;
@@ -358,4 +397,55 @@ footer{
 }
 .footer i:hover{
   color:rgba(34, 180, 34, 0.609);
+}
+#dropdown_queue{
+  display:none;
+  position:absolute;
+  
+ 
+}
+.dropdown:active #dropdown_queue {
+  display: block;
+  width:5rem;
+  position: absolute;
+  top:6.6rem;
+ 
+}
+#dropdown_queue p{
+   color:black;
+   width:10rem;
+   border:1px solid black;
+   background-color: honeydew;
+}
+#dropdown_LR{
+  display:none;
+  position:absolute;
+}
+#LRdrop:active #dropdown_LR{
+  display: block;
+  width:5rem;
+  position: absolute;
+  top:23.4rem;
+}
+#dropdown_LR p{
+  color:black;
+  width:10rem;
+  border:1px solid black;
+  background-color: honeydew;
+}
+#dropdown_lr{
+  display:none;
+  position:absolute;
+}
+#dropdown_lr p{
+  color:black;
+  width:10rem;
+  border:1px solid black;
+  background-color: honeydew;
+}
+#LRdrop:active #dropdown_lr{
+  display: block;
+  width:5rem;
+  position: absolute;
+  top:28.3rem;
 }
