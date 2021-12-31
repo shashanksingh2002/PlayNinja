@@ -1,17 +1,22 @@
+/* Body section */
 body {
   background: #0c1027;
   margin: 0px;
   padding: 0px;
   letter-spacing: 0.1rem;
   overflow-x: hidden;
+  overflow-wrap: break-word;
 }
+
 p {
   margin: 0px;
 }
+/* basic flex class */
 .flex {
   display: flex;
   flex-wrap: nowrap;
 }
+/* Header begins */
 #header {
   background: #090e25;
   position: sticky;
@@ -21,7 +26,6 @@ p {
   width: 100vw;
   flex-direction: row;
   justify-content: space-between;
-
 }
 #left-section-header {
   /* outline:2px solid white; */
@@ -54,12 +58,13 @@ p {
   background: none;
   color: lightgrey;
 }
-
+/* Header Ends */
+/* Main begins */
 #main {
   width: 100vw;
   flex-direction: row;
 }
-
+/* Main left begins */
 #main-left {
   width: 70%;
   flex-direction: column;
@@ -67,12 +72,7 @@ p {
   justify-content: space-evenly;
   /* border:2px solid red; */
 }
-
-/* Hide scrollbar for IE, Edge and Firefox */
-/*#main-left {
-    /*-ms-overflow-style: none; /* IE and Edge */
-/*  scrollbar-width: none; /* Firefox */
-/*  }  */
+/* Main right begins */
 #main-right {
   width: 30%;
   /* border: 2px solid cyan; */
@@ -90,6 +90,7 @@ p {
 #main-img img:hover {
   transform: scale(1.2);
 }
+/* Latest Release */
 #latestRelease {
   /* outline:2px solid red; */
   width: 90%;
@@ -106,6 +107,7 @@ p {
   align-self: flex-start;
   /* outline:2px solid white; */
 }
+/* Popular artist */
 #popularArtist {
   color: white;
   width: 90%;
@@ -146,6 +148,7 @@ p {
   margin-top: 1rem;
   width: 90%;
 }
+/* Latest release ends */
 #container {
   margin-left: 2rem;
   width: 100%;
@@ -246,7 +249,8 @@ p {
 #musictheme img:hover {
   transform: scale(1.2);
 }
-
+/* main left and main bottom left ends */
+/* Latest English */
 #latestEnglish {
   width: 90%;
   flex-direction: column;
@@ -271,6 +275,7 @@ p {
   width: 100%;
   height: 100%;
 }
+/* Latest hindi */
 #latestHindi {
   width: 90%;
   flex-direction: column;
@@ -295,6 +300,7 @@ p {
   align-items: center;
   justify-content: space-around;
 }
+/* Main right queue begins */
 .list {
   width: 100%;
   flex-direction: column;
@@ -334,6 +340,7 @@ p {
 .font_image i:focus {
   color: red;
 }
+/* Footer begins */
 footer {
   position: sticky;
   bottom: 0;
@@ -365,6 +372,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+/* Footer child controls */
 #controls {
   /* outline:2px solid white; */
   width: 50%;
@@ -393,6 +401,7 @@ footer {
 .footer i:hover {
   color: rgba(34, 180, 34, 0.609);
 }
+/* main right queue */
 #dropdown_queue {
   display: none;
   position: absolute;

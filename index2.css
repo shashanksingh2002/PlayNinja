@@ -1,0 +1,335 @@
+/* Body (basic) */
+body {
+  background: #0c1027;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 0.1rem;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+}
+i {
+  color: gray;
+}
+p {
+  margin: 0px;
+}
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* HEader begins */
+#header {
+  background: #090e25;
+  position: sticky;
+  top: 0;
+  padding-top: 1.6rem;
+  color: white;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* LEft section header */
+#left-section-header {
+  /* outline:2px solid white; */
+  width: 30%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+}
+/* Right section header */
+#right-section-header {
+  width: 40%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#searchBar {
+  width: 15rem;
+  background-color: #12193e;
+  padding: 0.4rem;
+  border: 1px solid grey;
+  border-radius: 25px;
+  justify-content: space-around;
+  align-items: center;
+}
+#searchBar input {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background: none;
+  color: lightgrey;
+}
+/* Main begins */
+#main {
+  flex-direction: column;
+}
+main {
+  /* border:2px solid white; */
+  padding-top: 3rem;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* Main left part */
+.main_left {
+  color: white;
+  width: 50vw;
+  height: 50vh;
+  /* outline:2px solid white; */
+  flex-direction: row;
+  background-color: #141b41;
+}
+/* Main top left */
+#maintopLeft {
+  height: 50vh;
+  /* outline:2px solid cyan; */
+  width: 125rem;
+  margin-right: 1rem;
+}
+#maintopLeft img {
+  width: 100%;
+  height: 100%;
+}
+/* Main top right */
+#maintopRight {
+  /* outline:2px solid cyan; */
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#songName {
+  /* outline:2px solid white; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#songName p {
+  color: gray;
+}
+#upper {
+  /* outline:2px solid white; */
+  flex-direction: column;
+}
+#songDetails {
+  flex-direction: column;
+}
+#songDetails p {
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+#lower {
+  /* outline: 2px solid white; */
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  color: lightgray;
+}
+#buttons {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+button[type="submit"] {
+  color: white;
+  padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+  outline: none;
+  border: none;
+  background: linear-gradient(90deg, #4f2bb8, #ad43d8);
+  transition: 1s ease-in-out;
+}
+button[type="submit"]:hover {
+  background: linear-gradient(90deg, #ad43d8, #4f2bb8);
+}
+/* List main right */
+.mainbottomlist {
+  color: white;
+  width: 100%;
+  /* outline:2px solid white; */
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+ol {
+  padding: 0;
+  flex-direction: column;
+  list-style: none;
+}
+.num {
+  /* outline:2px solid white; */
+  margin-left: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mainbottomlist li {
+  background: #1a1e33;
+  padding: 0.7rem;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  /* outline:2px solid white; */
+  flex-direction: row;
+  justify-content: space-between;
+}
+.listsong {
+  /* outline:2px solid cyan; */
+
+  flex-direction: row;
+  width: 30%;
+  margin-left: -23rem;
+}
+.listsongChild {
+  justify-content: center;
+  margin-left: 1rem;
+  flex-direction: column;
+}
+.listfonts {
+  flex-direction: row;
+  /* outline:2px solid red; */
+  margin-right: 1rem;
+  width: 15%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.oldiv {
+  width: 100%;
+  margin-top: 1rem;
+  /* outline:2px solid white; */
+}
+.main_right {
+  color: white;
+  width: 25vw;
+  /* outline: 2px solid red; */
+  flex-direction: column;
+}
+#mainrightTop {
+  /* outline:2px solid rgb(173, 49, 49); */
+  flex-direction: column;
+}
+/* main right top text */
+.MRTT {
+  /* outline:2px solid cyan; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+}
+/* main right top bottom */
+.MRTB {
+  margin-top: 1.5rem;
+  flex-direction: row;
+  align-items: center;
+  /* outline:2px solid greenyellow; */
+  justify-content: space-between;
+}
+.MRTBleft {
+  /* outline:2px solid white; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 52%;
+}
+.MRTBtext {
+  /* outline:2px solid white; */
+  height: 3.5rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.MRTBright {
+  color: lightgray;
+  /* outline:2px solid white; */
+  flex-direction: column;
+  height: 100%;
+}
+#mainrightbottom {
+  margin-top: 1.5rem;
+  flex-direction: column;
+  /* outline:2px solid white; */
+}
+#MRBT {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* outline:2px solid red; */
+}
+#MRBTlist li {
+  margin-bottom: 1rem;
+  /* outline:2px solid orange; */
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.liitems {
+  width: 70%;
+  /* outline:2px solid pink; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.litext {
+  flex-direction: column;
+}
+/* footer begins */
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+  height: 4rem;
+  background-color: #282828;
+  color: white;
+}
+.footer {
+  color: gray;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0.8rem;
+}
+.footer_left {
+  width: 15%;
+  /* outline:2px solid white; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer_left_child {
+  flex-direction: column;
+}
+.footer_center {
+  width: 30%;
+  /* outline:2px solid white; */
+  flex-direction: column;
+  align-items: center;
+}
+#controls {
+  /* outline:2px solid white; */
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#controlChild {
+  /* outline:2px solid white; */
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#Range {
+  width: 60%;
+}
+.footer_right {
+  width: 12%;
+  /* outline:2px solid white; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#range {
+  width: 40%;
+}
+.footer i:hover {
+  color: rgba(34, 180, 34, 0.609);
+}
