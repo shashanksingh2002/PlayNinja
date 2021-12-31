@@ -1,5 +1,6 @@
 # PlayNinja
-
+Link For the Page
+https://laughing-dijkstra-f1a069.netlify.app/
 Day1
   *Implemented the header which contains Profile,search bar,favourites, brand logo.
   
