@@ -14,3 +14,13 @@ Day4
   
 Day5
   *Implemented Footer (Song-Controls)
+  
+Day6
+  *Implemented the second page
+
+Day7
+  *Implemented the second page completely
+  
+Day8
+  *Completed the FrontEnd part of the Project only using HTML and CSS
+  
