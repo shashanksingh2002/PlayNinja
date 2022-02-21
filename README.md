@@ -24,4 +24,5 @@ Day7
   
 Day8
   *Completed the FrontEnd part of the Project only using HTML and CSS
+  NOTE: Work still in progress.
   
